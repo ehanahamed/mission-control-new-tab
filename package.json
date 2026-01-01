@@ -1,0 +1,16 @@
+{
+  "name": "mission-control-chrome",
+  "version": "1.0.0",
+  "description": "newtab thingy",
+  "license": "MIT",
+  "author": "Ehan Ahamed",
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles/input.css -o ./src/output.min.css --minify",
+    "build": "npm run build:css"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "daisyui": "^5.5.14",
+    "tailwindcss": "^4.1.18"
+  }
+}
